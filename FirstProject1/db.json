@@ -1,0 +1,100 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Борщ",
+      "description": "Говядина поясничный отруб, бульон говяжий, томатная паста, свёкла, лук, морковь, капуста, картофель, хлеб бородинский, сметана, зелень",
+      "image": "assets/firstEat/borsh.png",
+      "price": 250,
+      "category": "soups"
+    },
+    {
+      "id": 2,
+      "name": "Куриный суп",
+      "description": "Лапша, морковь, филе фермерской курицы, зелень",
+      "image": "assets/firstEat/chickenSoup.png",
+      "price": 200,
+      "category": "soups"
+    },
+    {
+      "id": 3,
+      "name": "Грибной крем-суп",
+      "description": "Шампиньоны, бульон куриный, лук, сливки, специи, гренки чесночные",
+      "image": "assets/firstEat/mashrumSoup.png",
+      "price": 230,
+      "category": "soups"
+    },
+    {
+      "id": 4,
+      "name": "Мясо в горшочке",
+      "description": "Говядина поясничный отруб, бульон говяжий, томатная паста, свёкла, лук, морковь, капуста, картофель, хлеб бородинский, сметана, зелень",
+      "image": "assets/secondEat/meatInpot.png",
+      "price": 450,
+      "category": "second"
+    },
+    {
+      "id": 5,
+      "name": "Купаты из говядины",
+      "description": "Колбаски говяжьи, лук, специи, кинза",
+      "image": "assets/secondEat/kupaty.png",
+      "price": 300,
+      "category": "second"
+    },
+    {
+      "id": 6,
+      "name": "Стейк бавет",
+      "description": "Стейк с пониженной жирностью и ярким насыщенным говяжьим вкусом из лопаточной части быка, розмарин, салат коул слоу",
+      "image": "assets/secondEat/stake.png",
+      "price": 700,
+      "category": "second"
+    },
+    {
+      "id": 7,
+      "name": "Чизкейк лимонный",
+      "description": "Легкий и воздушный чизкейк с лимонным вкусом и мягкой текстурой",
+      "image": "assets/desert/cheeseCake.png",
+      "price": 180,
+      "category": "desserts"
+    },
+    {
+      "id": 8,
+      "name": "Арахисовое чудо",
+      "description": "Десерт с насыщенным вкусом арахиса и шоколадной глазурью",
+      "image": "assets/desert/chocolate.png",
+      "price": 150,
+      "category": "desserts"
+    },
+    {
+      "id": 9,
+      "name": "Мороженое в ассортименте",
+      "description": "Разнообразие вкусов мороженого на любой вкус",
+      "image": "assets/desert/iceCream.png",
+      "price": 120,
+      "category": "desserts"
+    },
+    {
+      "id": 10,
+      "name": "Чай",
+      "description": "Ароматный чёрный или зелёный чай с добавками по вкусу",
+      "image": "assets/drinks/tea.png",
+      "price": 90,
+      "category": "drinks"
+    },
+    {
+      "id": 11,
+      "name": "Молочный коктейль",
+      "description": "Кремовый молочный коктейль с разнообразием вкусов",
+      "image": "assets/drinks/cocktail.png",
+      "price": 200,
+      "category": "drinks"
+    },
+    {
+      "id": 12,
+      "name": "Кофе",
+      "description": "Кофе средней обжарки с насыщенным вкусом",
+      "image": "assets/drinks/coffee.png",
+      "price": 150,
+      "category": "drinks"
+    }
+  ]
+}
