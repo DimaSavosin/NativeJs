@@ -17,13 +17,6 @@ const model = {
         }
     },
 
-    filterDishes(category) {
-        if (category === '' || category === 'all') {
-            this.state.filteredDishes = this.state.dishes;
-        } else {
-            this.state.filteredDishes = this.state.dishes.filter(dish => dish.category === category);
-        }
-    },
 
     initializeState() {
         this.state.cart = JSON.parse(localStorage.getItem('cart')) || [];
