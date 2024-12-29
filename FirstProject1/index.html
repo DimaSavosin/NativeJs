@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet"
-        href="css/style.css"
-  >
+  <title>Меню ресторана</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-
-<header class = "header">
-  <div class = "header__heading">
+<header class="header">
+  <div class="header__heading">
     <h1 class="header__heading-title">Меню</h1>
   </div>
 
@@ -33,20 +30,15 @@
       </select>
     </div>
 
-
     <div class="nav__buttons">
       <button class="nav__button nav__button--cart">Корзина</button>
       <button class="nav__button nav__button--history">История заказов</button>
     </div>
-
   </nav>
 </header>
 
-
-
 <main class="main">
-  <section class="main__dishes">
-  </section>
+  <section class="main__dishes"></section>
 
   <div id="cart-modal" class="main__modal">
     <div class="main__modal__content">
@@ -56,7 +48,6 @@
     </div>
   </div>
 
-
   <div id="history-modal" class="main__modal">
     <div class="main__modal__content">
       <span class="main__modal__content-close">&times;</span>
@@ -64,16 +55,8 @@
       <div class="main__modal__items"></div>
     </div>
   </div>
-
 </main>
 
-
-</body>
-
-
 <script type="module" src="./js/app.js"></script>
-
-
-
-
+</body>
 </html>
